@@ -1,0 +1,48 @@
+
+
+/* google fonts start here */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-normal{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.raleway-normal{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+/* google fonts end here */
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* declared variable */
+:root{
+    --primary-color: #F7F7F7;
+    --secondary-color: #111111;
+    --tertiary-color: #FEA301;
+    --quaternary-color: #01ACFD;
+}
+
+
+
+
+
+
+/* start here common class section which use in html file a lot of time  */
+ 
+/* end here common class section which use in html file a lot of time  */
