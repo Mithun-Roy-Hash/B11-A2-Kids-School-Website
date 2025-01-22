@@ -59,14 +59,13 @@ body{
 
 /* header section start here */
 header{
-    padding: 20px 140px 60px 140px;
+    padding: 20px 140px 0 140px;
 }
 
 /* navbar start here */
 nav{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
 }
 
 nav>img{
@@ -80,7 +79,7 @@ nav>h3{
     font-weight: 700px;
     font-size: 32px;
     color: var(--secondary-color);
-    margin-right: 186px;
+    margin-right: 145px;
 }
 
 nav ul{
@@ -117,7 +116,7 @@ nav ul li a{
 
 #link-4{
     color: #5D58EF;
-    margin-right: 186px;
+    margin-right: 145px;
 
 }
 
@@ -125,12 +124,66 @@ nav ul li a{
     font-weight: 600px;
     font-size: 20px;
     color: var(--primary-color);
-    padding: 10px;
+    padding: 10px 60px;
     background-color: var(--tertiary-color);
     border-radius: 12px;
     border: none;
 }
 /* navbar end here */
+
+
+
+/* banner container start here */
+.banner-container{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.banner-sub-container{
+    margin: 122px 50px 122px 0;
+}
+
+.banner-sub-container>h1{
+    font-weight: 700px;
+    font-size: 56px;
+    line-height: 61px;
+}
+
+#modify-1{
+    color: var(--tertiary-color);
+}
+
+#modify-2{
+    color: var(--secondary-color);
+}
+
+#modify-3{
+    color: var(--quaternary-color);
+}
+
+.banner-sub-container>p{
+    font-weight: 400px;
+    font-size: 20px;
+    color: var(--secondary-color);
+    margin: 24px 0;
+}
+
+.btn-2{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: var(--secondary-color);
+    padding: 10px 47px;
+    border-radius: 12px;
+    border: none;
+
+}
+
+.banner-container>img{
+    width: 469px;
+    height: 575px;
+}
+/* banner container end here */
 
 
 /* header section end here */
@@ -176,8 +229,50 @@ nav ul li a{
 
 
     .banner-container{
+        flex-direction: column-reverse;
         border-top: 1px solid var(--tertiary-color);
+        margin: 8px 0 10px 0;
     }
+
+    .banner-container>img{
+        margin: 30px 16px 0 20px;
+        width: 340px;
+        height: 413px;
+     
+    }
+
+    .banner-sub-container{
+        margin: none;
+        text-align: center;
+    }
+
+    .banner-sub-container>h1{
+        font-weight: 700px;
+        font-size: 32px;
+    }
+
+
+    .banner-sub-container>p{
+        font-weight: 500px;
+        font-size: 14px;
+        color: var(--secondary-color);
+        margin: 18px 0;
+    }
+    
+    .btn-2{
+        font-weight: 700;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: var(--secondary-color);
+        padding: 6px 24px;
+        border-radius: 8px;
+        border: none;
+    
+    }
+    
+
+
+
     
 }
 
