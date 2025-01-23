@@ -45,18 +45,6 @@ body{
 
 
 
-
-
-/* start here common class section which use in html file a lot of time  */
- 
-/* end here common class section which use in html file a lot of time  */
-
-
-
-
-
-
-
 /* header section start here */
 header{
     padding: 20px 140px 0 140px;
@@ -289,30 +277,94 @@ nav ul li a{
     background-color: var(--tertiary-color);
 }
 
+.arrow-color{
+    font-size: 30px;
+    color: white;
+}
+
 .arrow:hover{
-    background-color: aqua;
+    background-color: #05D4DF;
 }
 
 .arrow-color:hover{
     color: black;
-} 
-
-.arrow-color{
-    color: white;
-    font-weight: 900px;
-    font-size: 30px;
 }
-
 
 /* curriculum container end here */
 
 
-
-
-
-
 /* main section end here */
 
+
+
+
+
+
+
+/* footer section start here */
+footer{
+    width: 100%;
+    background-color: var(--quaternary-color);
+}
+
+.footer-container{
+    display: flex;
+    padding: 123px 228px 174px 140px;
+    color: white;
+}
+
+.education{
+    margin-right: 122px;
+}
+
+.edu-sub{
+    display: flex;
+}
+
+ 
+.edu-sub>img{
+    width: 82px;
+    height: 82px;
+    filter: invert(180%);
+    margin-right: 11px;
+    margin-bottom: 35px;
+}
+
+.para-style p{
+    font-weight: 700px;
+    font-size: 33px;
+}
+
+.education>p{
+    padding-left: 9px;
+    font-weight: 400px;
+    font-size: 20px;
+    width: 400px;
+}
+
+.school{
+    margin-right: 122px;
+}
+
+.school h3{
+    font-weight: 700px;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.school-link>a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.social-media h3{
+    font-weight: 700px;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+/* footer section end here */
 
 
 
@@ -453,6 +505,39 @@ nav ul li a{
         display: none;
     }
 
+
+    
+    .footer-container{
+    flex-direction: column;
+    padding: 65px 15px 60px 21px;
+    margin-top: 20px;
+    }
+
+    .education{
+        margin-bottom: 32px;
+    }
+
+
+    .edu-sub>img{
+        width: 69px;
+        height: 69px;
+        margin-right: 9px;
+        margin-bottom: 22px;
+    }
+
+    .para-style p{
+        font-size: 30px;
+    }
+    
+    .education>p{
+        padding: 0;
+        width: auto;
+    }
+    
+    
+    .school{
+    margin-right: 0;
+    }
 }
 
 /* media query end here */
